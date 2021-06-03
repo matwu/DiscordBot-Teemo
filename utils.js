@@ -1,6 +1,6 @@
-module.exports.getChannel = (client, channelName) => {
+module.exports.getChannel = (client, guildId, channelName) => {
   return client.channels.cache.find(element => {
-    return element.type === 'voice' && element.name === channelName
+    return element.guild.id === guildId && element.type === 'voice' && element.name === channelName
   })
 }
 

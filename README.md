@@ -1,8 +1,11 @@
 # DiscordBot - Teemo
 
+## Botを招待する
+https://discord.com/api/oauth2/authorize?client_id=785092373411135488&permissions=0&scope=bot
+
 ## コマンド一覧
-#### チャンネル内のメンバーを指定数にチーム分けする
-`@Teemo divide [チャンネル名] into [数字]  `  
+#### ボイスチャンネル内のメンバーを指定数にチーム分けする
+`@Teemo divide [ボイスチャンネル名] into [数字]  `  
   
 例: @Teemo divide lol into 2
 

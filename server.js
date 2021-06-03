@@ -29,7 +29,7 @@ http.createServer(function(req, res) {
     })
   } else if (req.method == 'GET') {
     res.writeHead(200, {'Content-Type': 'text/plain'})
-    res.end('Discord Bot is active now.\n')
+    res.end('Discord Bot is active now.')
   }
 }).listen(3000)
 
